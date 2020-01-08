@@ -32,7 +32,7 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder('fos_oauth_server');
 
         /** @var ArrayNodeDefinition $rootNode */
-        $rootNode = $treeBuilder->root('fos_oauth_server');
+        $rootNode = $treeBuilder->getRootNode();
 
         $supportedDrivers = ['orm', 'mongodb', 'propel', 'custom'];
 
