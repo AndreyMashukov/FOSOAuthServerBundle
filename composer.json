@@ -24,7 +24,8 @@
         "friendsofsymfony/oauth2-php": "dev-master",
         "symfony/dependency-injection": "~3.0|~4.0|^5.0",
         "symfony/framework-bundle": "~3.0|~4.0|^5.0",
-        "symfony/security-bundle": "~3.0|~4.0|^5.0"
+        "symfony/security-bundle": "~3.0|~4.0|^5.0",
+        "twig/twig": "^3.0"
     },
     "require-dev": {
         "doctrine/doctrine-bundle": "~1.0",
